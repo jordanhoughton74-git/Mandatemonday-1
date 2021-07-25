@@ -17,7 +17,7 @@ export default function Footer() {
             <Container>
             <Row className={styles.footer}>
                 <Col md={4} sm={12} className={styles.left}>
-                    <a href="mailto:mondaymandate@gmail.com"><p className="grey-text">Email: info@mandatemonday.com</p></a>
+                    <a href="mailto:info@mandatemonday.co.uk"><p className="grey-text">Email: info@mandatemonday.co.uk</p></a>
                     <Link href="/episodes"><a className="grey-text epLink">Episodes</a></Link>
                 </Col>
                 <Col md={4} sm={12} className={styles.middle}>
