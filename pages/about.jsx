@@ -104,7 +104,7 @@ export default function About(){
                     
                 </Col>
                 <Col md={4} sm={12}>
-                    <a href="mailto:mondaymandate@gmail.com"><EmailIcon className={styles.icon}/></a>
+                    <a href="mailto:info@mandatemonday.co.uk"><EmailIcon className={styles.icon}/></a>
                     <h4 className={styles.contactTitle}>mondaymandate@gmail.com</h4>
                 </Col>
                 <Col md={4} sm={12}>
