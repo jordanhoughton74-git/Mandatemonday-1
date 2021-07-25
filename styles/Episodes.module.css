@@ -1,0 +1,65 @@
+.background {
+    background-image: url(/images/episodesMix.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+.title {
+    padding: 75px 0;
+    margin: 0;
+}
+.darkBackground {
+    background-color: #111;
+    padding: 50px;
+}
+.card {
+    background-color: #191919;
+    border-radius: 25px;
+    min-height: 40vh;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+.episodeTitle {
+    padding-bottom: 20px;
+}
+.iframe {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+.searchBar {
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .darkBackground {
+        padding: 50px 20px;
+    }
+    
+}
+@media (max-width: 1300px) {
+    .background {
+        background-attachment: scroll;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 25px 10px;
+    }
+    .darkBackground {
+        padding: 50px 10px;
+    }
+}
+@media (max-width: 450px) {
+.searchBar{
+    width: 100%;
+}
+}

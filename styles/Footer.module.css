@@ -1,0 +1,42 @@
+.background {
+    background-color: rgb(29, 29, 29);
+}
+.footer {
+    padding: 75px 0
+}
+.left {
+    text-align: left;
+}
+.middle {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.iconFB, .iconTw, .iconIG {
+    margin: 0 0.5rem;
+}
+.iconTw {
+    max-width: 32px;
+    margin-left: 10px;
+}
+.iconFB:hover {
+    color: #3b5998;
+}
+.iconTw:hover {
+    color: #1DB954
+}
+.iconIG:hover {
+    color: #fb3958
+}
+@media (max-width: 767px) {
+    .left {
+        display: none;
+    }
+    .right {
+        text-align: center;
+    }
+    .footer {
+        padding: 35px 0;
+    }
+}

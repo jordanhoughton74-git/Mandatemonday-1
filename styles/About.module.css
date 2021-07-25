@@ -1,0 +1,180 @@
+.background {
+    background-image: url(/images/AboutMic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    padding: 40px 0;
+    margin-top: -1px;
+
+}
+.aboutBackground {
+    background-color: #111;
+}
+.title {
+    padding: 80px 0;
+    text-align: center;
+}
+.overlapDiv {
+    margin: -50px 30px 0;
+    text-align: center;
+    padding: 75px 20%;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    z-index: 99;
+    background: linear-gradient(0deg, #111 0%, #191919 100%);}
+.line {
+    border: 4px solid #fff;
+    border-radius: 5px;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+.padBot {
+    padding-bottom: 30px;
+}
+.padBotLarge {
+    padding-bottom: 60px;
+}
+.cardDeck {
+    background-color: #111;
+    min-height: 40vh;
+    padding: 0 75px 75px;
+    margin-top: -1px;
+}
+.mainTitle {
+    padding-bottom: 35px;
+    font-family: 'Nunito', sans-serif !important;
+}
+.border {
+    border-radius: 25px 0 0 25px;
+
+}
+.card1 {
+    padding: 0;
+    line-height: 0;
+    border-radius: 25px 0 0 25px;
+    text-align: right;
+}
+.card2 {
+    background-color: #191919;
+    border-radius: 0 25px 25px 0;
+    padding: 20px;
+    display: table;
+}
+.verticalAlign {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hostsTitle {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contactDiv {
+    background-image: url(/images/ContactCover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 75px 0;
+}
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.icon, .iconIg {
+    color: #00d200;
+    font-size: 60px !important;
+    padding-bottom: 20px;
+}
+.iconIg:hover {
+    color: #fb3958
+}
+
+.spotify {
+    margin-top: 5px;
+    max-width: 32px;
+    margin-bottom: 22px;
+    color: #00d200;;
+}
+.spotify:hover {
+    color: #fff
+}
+
+@media (max-width: 1090px) {
+    .border {
+        border-radius: 0;
+    }
+    .verticalAlignCard {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .card1 {
+        background-color: #191919;
+        padding-left: 30px;
+        display: table;
+    }
+}
+@media (max-width: 900px) {
+    .overlapDiv {
+        padding: 75px 15%;
+}
+    .cardDeck {
+        padding: 0 45px
+    }
+    .contactTitle {
+        font-size: 1.2rem;
+    }
+  
+}
+@media (max-width: 1300px) {
+
+.background, .contactDiv {
+    background-attachment: scroll;
+}
+}
+@media (max-width: 767px) {
+ 
+    .card1 {
+        background-color: #191919;
+        padding:40px 0 0;
+        border-radius: 25px 25px 0 0;
+        text-align: center;
+    }
+    .card2 {
+        border-radius: 0 0 25px 25px;
+    }
+    .cardDeck {
+        padding: 0 30px
+    }
+}
+
+@media (max-width: 575px) {
+    .cardDeck {
+        padding: 0 15px
+    }
+}
+@media (max-width: 450px) {
+    .overlapDiv {
+        padding: 50px 15px 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+    .cardDeck {
+        padding: 0 15px
+    }
+    .card2 {
+        text-align: center;
+    }
+}
+@media (max-width: 428px) {
+    .card1 {
+        padding: 0;
+    }
+    .border {
+        border-radius: 25px 25px 0 0;
+    }
+}

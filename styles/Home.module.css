@@ -1,0 +1,98 @@
+.padBot {
+    padding-bottom: 35px;
+}
+.padTop {
+    padding-top: 35px;
+}
+.latestEp{
+    background-color: #111;
+    min-height: 50vh;
+    padding: 75px;
+    margin-top: -1px;
+}
+.card {
+    border-radius: 30px;
+    background-color: #191919;
+    text-align: center;
+    padding: 75px;
+}
+.logoTitle {
+    margin-left: -22px;
+}
+.mainTitle {
+    padding-bottom: 35px;
+    font-family: 'Nunito', sans-serif;
+}
+.socials {
+    background-image: url(/images/HomeSocials2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    min-height: 20vh;
+}
+.iconFB, .iconTw, .iconIG {
+    margin: 0 0.5rem;
+    color: #00d200;
+    font-size: 70px !important;
+}
+.iconTw {
+    max-width: 60px;
+    margin-left: 18px;
+}
+.iconFB:hover {
+    color: #3b5998;
+}
+.iconTw:hover {
+    color: #fff
+}
+.iconIG:hover {
+    color: #fb3958
+}
+.justifyCenter {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 0 75px;
+}
+.socialTitle {
+    padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .homeTop {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .card {
+        padding: 20px 5px 40px;
+    }
+    .latestEp {
+        padding: 15px;
+    }
+}
+@media (max-width: 900px) {
+
+.logoTitle {
+    margin-left: -18px;
+}
+.socials {
+    background-attachment: scroll;    
+}
+}
+
+
+
+@media (max-width: 450px) {
+    .homeTop{
+        background-image: url(/images/Grant&JacobPodcastHostsMobile.jpg);
+    }
+    .padTop {
+        padding: 0;
+    }
+}
+@media (min-width: 1441px){
+    .homeTop{
+        min-height: 70vh;
+        padding-top: 20vh;
+    }
+}
