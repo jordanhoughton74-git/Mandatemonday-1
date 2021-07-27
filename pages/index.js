@@ -86,6 +86,10 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
         <Link href="/episodes"><a className="episodeButton">View More Episodes</a></Link>
 
       </div>  
+
+<div id="contact">
+<h2>Get in Touch</h2>
+<div id="contact-form">
 <form
   action="https://formspree.io/f/xnqlgqjo"
   method="POST"
@@ -103,6 +107,8 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
 
   <button type="submit">Send</button>
 </form>
+</div>
+</div>
     </div>
   </div>
   <div className={styles.socials} alt="Podcast Recording on Mac">
