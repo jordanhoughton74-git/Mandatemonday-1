@@ -85,7 +85,24 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
         <h4 className={styles.padBot}>Next episode is {nextEp()}</h4>
         <Link href="/episodes"><a className="episodeButton">View More Episodes</a></Link>
 
-      </div>    
+      </div>  
+<form
+  action="https://formspree.io/f/xnqlgqjo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
     </div>
   </div>
   <div className={styles.socials} alt="Podcast Recording on Mac">
