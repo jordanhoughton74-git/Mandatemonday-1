@@ -1,6 +1,8 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Head from "next/head";
+import ContactForm from '../components/contactFrom';
+
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,6 +24,7 @@ function MyApp({ Component, pageProps }) {
 
   <Header />
   <Component {...pageProps} />
+  <ContactForm />
   <Footer />
     </>
   )
