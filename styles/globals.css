@@ -32,7 +32,7 @@ a:hover {
   width: 75px;
 }
 .homeTop{
-  background-image: url(/images/Grant&JacobPodcastHosts.jpg);
+  background-image: url(/images/Grant&JacobPodcastHosts.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,6 +51,39 @@ a:hover {
 }
 .nav-link.active {
   color: #00d200 !important;
+}
+.messageIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #00d200;
+  border: 0;
+  z-index: 999;
+}
+.messageIcon:hover {
+  background-color: #00FF00;
+}
+.submitButton{
+  background-color: #00d200;
+  border: 0;
+}
+.submitButton:hover {
+  background-color: #00FF00;
+}
+.modal-content {
+  background-color: rgb(36, 36, 36);
+}
+.invisible {
+  display: none;
+}
+.green-text {
+  color: #00d200;
 }
 
 .episodeButton {
@@ -129,6 +162,10 @@ a:hover {
 .hover:hover, .epLink:hover {
   color: #00d200;
 }
+.privacy-background {
+  background-color: #000000;
+  padding: 50px;
+}
 
 
 @media (min-width: 768px){
@@ -169,19 +206,19 @@ a:hover {
   }
 }
 
-
 @media (max-width: 767px) {
   .homeTop {
       padding-left: 0px;
       text-align: center;
   }
-  
-
-}
+  .leftAlign {
+      text-align: right;
+    }
+  }
 
 @media (max-width: 450px) {
   .homeTop{
-      background-image: url(/images/Grant&JacobPodcastHostsMobile2.jpg);
+      background-image: url(/images/Grant&JacobPodcastHostsMobile.png);
       padding-top: 15vh;
   }
 

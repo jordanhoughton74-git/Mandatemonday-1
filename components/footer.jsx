@@ -17,8 +17,11 @@ export default function Footer() {
             <Container>
             <Row className={styles.footer}>
                 <Col md={4} sm={12} className={styles.left}>
-                    <a href="mailto:info@mandatemonday.co.uk"><p className="grey-text">Email: info@mandatemonday.co.uk</p></a>
+                    <p className="grey-text">Email: <a href="mailto:info@mandatemonday.co.uk">info@mandatemonday.co.uk</a></p>
                     <Link href="/episodes"><a className="grey-text epLink">Episodes</a></Link>
+                    <div>
+                    <Link href="/privacy-policy"><a className="grey-text epLink">Privacy Policy</a></Link>
+                    </div>
                 </Col>
                 <Col md={4} sm={12} className={styles.middle}>
                     <h4>
@@ -29,8 +32,11 @@ export default function Footer() {
                     </h6>
                 </Col>
                 <Col md={4} sm={12} className={styles.right}>
-                    <p className="grey-text-mobile">Email: info@mandatemonday.com</p>
-                    <p className="grey-text-mobile">Episodes</p>
+                    <p className="grey-text-mobile">Email: <a href="mailto:info@mandatemonday.co.uk">info@mandatemonday.co.uk</a></p>
+                    <Link href="/episodes"><a className="grey-text-mobile epLink">Episodes</a></Link>
+                    <div>
+                    <Link href="/privacy-policy"><a className="grey-text-mobile epLink">Privacy Policy</a></Link>
+                    </div>
                     <p>Follow Us On:</p>
                     <a href="https://www.facebook.com/mandatemondaypodcast"> <FacebookIcon className={styles.iconFB} fontSize="large" /></a>
                     <a href="https://www.instagram.com/mandate.monday/?hl=en"><InstagramIcon className={styles.iconIG} fontSize="large" /></a>

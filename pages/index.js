@@ -57,7 +57,7 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
       <Row>
         <Col md={6} sm={12}>
           <h1 className={styles.mainTitle}>MANDATE MONDAY</h1>
-          <h5 className={styles.padBot}>Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey And Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</h5>
+          <h5 className={styles.padBot}>Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey and Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</h5>
           <div className={styles.padBot}>
           <Link href="/episodes"><a className="episodeButton">View Episodes</a></Link>
           </div>
@@ -85,7 +85,7 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
         <h4 className={styles.padBot}>Next episode is {nextEp()}</h4>
         <Link href="/episodes"><a className="episodeButton">View More Episodes</a></Link>
 
-      </div>  
+      </div>    
     </div>
   </div>
   <div className={styles.socials} alt="Podcast Recording on Mac">
