@@ -5,7 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Gloria Hallelujah', cursive;
-  color: white;
+  color: rgb(254, 254, 254);
+  background-color: #000000;
 }
 h5, p {
   font-family: 'Nunito', sans-serif;
@@ -28,7 +29,7 @@ a:hover {
   box-sizing: border-box;
 }
 .logo-img {
-  height: 75px;
+  height: 79px;
   width: 75px;
 }
 .homeTop{

@@ -38,9 +38,9 @@ export default function Footer() {
                     <Link href="/privacy-policy"><a className="grey-text-mobile epLink">Privacy Policy</a></Link>
                     </div>
                     <p>Follow Us On:</p>
-                    <a href="https://www.facebook.com/mandatemondaypodcast"> <FacebookIcon className={styles.iconFB} fontSize="large" /></a>
-                    <a href="https://www.instagram.com/mandate.monday/?hl=en"><InstagramIcon className={styles.iconIG} fontSize="large" /></a>
-                    <a href="https://open.spotify.com/show/0A5X6YmBNxU8v4TXma7DdA?si=AR11TVLdRxCpAq_BLDqJ_Q&dl_branch=1"><FontAwesomeIcon className={styles.iconTw} icon={faSpotify} /></a>
+                    <a aria-label="Facebook" href="https://www.facebook.com/mandatemondaypodcast"> <FacebookIcon className={styles.iconFB} fontSize="large" /></a>
+                    <a aria-label="Instagram" href="https://www.instagram.com/mandate.monday/?hl=en"><InstagramIcon className={styles.iconIG} fontSize="large" /></a>
+                    <a aria-label="Spotify" href="https://open.spotify.com/show/0A5X6YmBNxU8v4TXma7DdA?si=AR11TVLdRxCpAq_BLDqJ_Q&dl_branch=1"><FontAwesomeIcon className={styles.iconTw} icon={faSpotify} /></a>
                     
                 </Col>
             </Row>

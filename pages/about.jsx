@@ -99,16 +99,16 @@ export default function About(){
         <Container fluid>
             <Row className={styles.center}>
                 <Col md={4} sm={12}>
-                <a href="https://open.spotify.com/show/0A5X6YmBNxU8v4TXma7DdA?si=AR11TVLdRxCpAq_BLDqJ_Q&dl_branch=1"><FontAwesomeIcon className={styles.spotify} icon={faSpotify} /></a>
+                <a aria-label="Spotify" href="https://open.spotify.com/show/0A5X6YmBNxU8v4TXma7DdA?si=AR11TVLdRxCpAq_BLDqJ_Q&dl_branch=1"><FontAwesomeIcon className={styles.spotify} icon={faSpotify} /></a>
                     <h4 className={styles.contactTitle}>Spotify</h4>
                     
                 </Col>
                 <Col md={4} sm={12}>
-                    <a href="mailto:info@mandatemonday.co.uk"><EmailIcon className={styles.icon}/></a>
+                    <a aria-label="Email" href="mailto:info@mandatemonday.co.uk"><EmailIcon className={styles.icon}/></a>
                     <h4 className={styles.contactTitle}><a href="mailto:info@mandatemonday.co.uk">info@mandatemonday.co.uk</a></h4>
                 </Col>
                 <Col md={4} sm={12}>
-                <a href="https://www.instagram.com/mandate.monday/?hl=en"><InstagramIcon className={styles.iconIg}/></a>
+                <a aria-label="Instagram" href="https://www.instagram.com/mandate.monday/?hl=en"><InstagramIcon className={styles.iconIg}/></a>
                     <h4 className={styles.contactTitle}>@mandate.monday</h4>
                 </Col>
             </Row>

@@ -51,7 +51,7 @@ export default function ContactForm(){
 
     return(
         <>
-        <Button variant="success" className="modal-title messageIcon" onClick={handleShow}>
+        <Button variant="success" aria-label="Contact Form" className="modal-title messageIcon" onClick={handleShow}>
           <ChatBubbleOutlineIcon />
         </Button>
   
