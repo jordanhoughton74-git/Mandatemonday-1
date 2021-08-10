@@ -53,7 +53,7 @@ export default function Episodes(){
 
                 <div className={styles.card} key={val.id}>
                     <h2 className={styles.episodeTitle}>{val.title}</h2>
-                    <iframe sandbox="allow-scripts" className={styles.iframe} src={val.link} height="100%" width="100%" frameBorder="0" scrolling="no"></iframe>
+                    <iframe title="Podcast Player" sandbox="allow-scripts" className={styles.iframe} src={val.link} height="100%" width="100%" frameBorder="0" scrolling="no"></iframe>
                     <p>{val.text}</p>
                 </div>
             

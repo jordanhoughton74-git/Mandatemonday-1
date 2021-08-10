@@ -15,7 +15,7 @@ module.exports =
                   imgSrc: ["'self'", "data:"],
                   frameSrc: ["https://anchor.fm/"],
                   fontSrc: ["'self'", "https://fonts.gstatic.com"],
-                  scriptSrc: ["'self'", "'sha256-X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k='", "'unsafe-eval'"]
+                  scriptSrc: ["'self'", "'sha256-X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k='"]
                 },
               },
               frameGuard: "deny",
