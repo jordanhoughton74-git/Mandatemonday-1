@@ -28,7 +28,7 @@ export default function Footer() {
                         Mandate Monday © {new Date().getFullYear()}
                     </h4>
                     <h6>
-                        Website created by <a className="hover" href="https://houghtonwebdesign.co.uk/">Houghton Web Design</a>
+                        Website created by <a className="hover" target="_blank" rel="noopener noreferrer" href="https://houghtonwebdesign.co.uk/">Houghton Web Design</a>
                     </h6>
                 </Col>
                 <Col md={4} sm={12} className={styles.right}>
