@@ -52,26 +52,33 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
  </Head>
 
   <div className="homeTop" alt="Grant and Jacob Podcast Hosts">
-    <div className="wrapper">
+    <div className="wrapper halloween-font">
     <Container>
       <Row>
+      <Col md={6} sm={12}>
+      </Col>
         <Col md={6} sm={12}>
-          <h1 className={styles.mainTitle}>MANDATE MONDAY</h1>
-          <p className={styles.subTitle}>Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey and Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</p>
+          <h1>MANDATE MONDAY</h1>
+          <p className="halloween-font">Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey and Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</p>
           <div className={styles.padBot}>
           <Link href="/episodes"><a className="episodeButton">View Episodes</a></Link>
           </div>
         </Col>
-        <Col md={6} sm={12}>
-        </Col>
+        
       </Row>
     </Container>
     </div>
   </div>
-
-   
+<div>
+  <div className="cobweb">
+    <img src="images/CobWeb.svg" width="50px"/>
+    </div>
+    <div className="cobweb cobright">
+    <img src="images/CobWebRight.svg" width="50px"/>
+    </div>
   <div className={styles.latestEp} key={lastEntry.id}>
-    <div className="wrapper">
+    
+    <div className="wrapper halloween-font">
       <div className={styles.card}>
         <h2 className={styles.padBot}>
           View our lastest episode below!
@@ -97,6 +104,7 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
              <a href="https://open.spotify.com/show/0A5X6YmBNxU8v4TXma7DdA?si=AR11TVLdRxCpAq_BLDqJ_Q&dl_branch=1" aria-label="Spotify"><FontAwesomeIcon className={styles.iconTw} icon={faSpotify} /></a>
           </Col>
       </Container>
+  </div>
   </div>
   </>
   )

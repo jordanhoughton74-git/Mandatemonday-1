@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
 html,
 body {
   padding: 0;
@@ -10,6 +10,23 @@ body {
 }
 h5, p {
   font-family: 'Nunito', sans-serif;
+}
+.halloween-font {
+  font-family: 'Griffy', cursive !important;
+  color: #eb6123;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  text-align: justify;
+}
+.cobweb {
+  position: absolute
+}
+.cobright {
+  right:0
 }
 .wrapper {
   max-width: 1440px;
@@ -33,16 +50,19 @@ a:hover {
   width: 75px;
 }
 .homeTop{
-  background-image: url(/images/Grant&JacobPodcastHosts.png);
+  background-image: url(/images/Halloween.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
   margin-top: -1px;
   padding-top: 30vh;
-  padding-left: 160px;
+  /* padding-left: 160px; */
 }
+/* .halloween-opacity {
+  opacity: 0.15
+} */
 .grey-text, .grey-text-mobile {
   color: rgb(237, 237, 237);
   margin: 0;
@@ -90,10 +110,12 @@ a:hover {
 .episodeButton {
 	background-color:transparent;
 	border-radius:29px;
-	border:3px solid #01b601;
+	/* border:3px solid #01b601; */
+  border: 3px solid #eb6123;
 	display:inline-block;
 	cursor:pointer;
-	color:#01b601;
+	/* color:#01b601; */
+  color: #eb6123;
 	font-family:Arial;
 	font-size:17px;
 	font-weight:bold;
@@ -210,7 +232,10 @@ a:hover {
 @media (max-width: 767px) {
   .homeTop {
       padding-left: 0px;
-      text-align: center;
+      text-align: center !important;
+  }
+  .halloween-font {
+    text-align: center;
   }
   .leftAlign {
       text-align: right;
@@ -219,14 +244,19 @@ a:hover {
 
 @media (max-width: 450px) {
   .homeTop{
-      background-image: url(/images/Grant&JacobPodcastHostsMobile.png);
-      padding-top: 15vh;
+    background-position-x: 35%;
+    padding-top: 25vh;
+    text-align: center;
+  }
+  .halloween-font {
+    text-align: center;
   }
 
 }
 @media (min-width: 1441px){
   .homeTop{
-      min-height: 70vh;
-      padding-top: 20vh;
+      min-height: 100vh;
+      /* min-height: 70vh; */
+      padding-top: 30vh;
   }
 }
