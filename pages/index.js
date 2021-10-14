@@ -71,10 +71,10 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
   </div>
 <div>
   <div className="cobweb">
-    <img src="images/CobWeb.svg" alt="spider web" width="50px"/>
+    <img src="images/CobWeb.svg" alt="spider web" width="50px" height="50px"/>
     </div>
     <div className="cobweb cobright">
-    <img src="images/CobWebRight.svg" alt="spider web" width="50px"/>
+    <img src="images/CobWebRight.svg" alt="spider web" width="50px" height="50px"/>
     </div>
   <div className={styles.latestEp} key={lastEntry.id}>
     
