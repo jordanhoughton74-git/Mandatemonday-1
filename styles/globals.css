@@ -11,23 +11,7 @@ body {
 h5, p {
   font-family: 'Nunito', sans-serif;
 }
-.halloween-font {
-  font-family: 'Griffy', cursive !important;
-  color: #eb6123;
-  text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-  text-align: justify;
-}
-.cobweb {
-  position: absolute
-}
-.cobright {
-  right:0
-}
+
 .wrapper {
   max-width: 1440px;
   margin-left: auto;
@@ -50,19 +34,17 @@ a:hover {
   width: 75px;
 }
 .homeTop{
-  background-image: url(/images/Halloween.svg);
+  background-image: url(/images/Grant&JacobPodcastHosts.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   min-height: 100vh;
   margin-top: -1px;
   padding-top: 30vh;
-  /* padding-left: 160px; */
+  padding-left: 160px;
 }
-/* .halloween-opacity {
-  opacity: 0.15
-} */
+
 .grey-text, .grey-text-mobile {
   color: rgb(237, 237, 237);
   margin: 0;
@@ -110,12 +92,10 @@ a:hover {
 .episodeButton {
 	background-color:transparent;
 	border-radius:29px;
-	/* border:3px solid #01b601; */
-  border: 3px solid #eb6123;
+	border:3px solid #01b601;
 	display:inline-block;
 	cursor:pointer;
-	/* color:#01b601; */
-  color: #eb6123;
+	color:#01b601;
 	font-family:Arial;
 	font-size:17px;
 	font-weight:bold;
@@ -166,7 +146,6 @@ a:hover {
   padding-left: 3px;
   padding-top: 1px;
 }
-
 
 /* align icon */
 .left-addon .searchIcon  { left:  0px;}
@@ -233,10 +212,9 @@ a:hover {
   .homeTop {
       padding-left: 0px;
       text-align: center !important;
+      background-image: url(/images/Grant&JacobPodcastHostsMobile.png);
   }
-  .halloween-font {
-    text-align: center;
-  }
+
   .leftAlign {
       text-align: right;
     }
@@ -248,15 +226,69 @@ a:hover {
     padding-top: 25vh;
     text-align: center;
   }
-  .halloween-font {
-    text-align: center;
-  }
+  
 
 }
 @media (min-width: 1441px){
   .homeTop{
-      min-height: 100vh;
-      /* min-height: 70vh; */
+      min-height: 70vh;
       padding-top: 30vh;
+  }
+}
+
+
+//Christmas
+.winter-is-coming, .snow {
+  z-index: 100;
+  pointer-events: none;
+}
+.winter-is-coming {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: #333;
+}
+.snow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: falling linear infinite both;
+  transform: translate3D(0, -100%, 0);
+}
+.snow--near {
+  animation-duration: 10s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png');
+  background-size: contain;
+}
+.snow--near + .snow--alt {
+  animation-delay: 5s;
+}
+.snow--mid {
+  animation-duration: 20s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png');
+  background-size: contain;
+}
+.snow--mid + .snow--alt {
+  animation-delay: 10s;
+}
+.snow--far {
+  animation-duration: 30s;
+  background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png');
+  background-size: contain;
+}
+.snow--far + .snow--alt {
+  animation-delay: 15s;
+}
+@keyframes falling {
+  0% {
+    transform: translate3D(-7.5%, -100%, 0);
+  }
+  100% {
+    transform: translate3D(7.5%, 100%, 0);
   }
 }

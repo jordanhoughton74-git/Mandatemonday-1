@@ -12,7 +12,7 @@ module.exports =
                 directives: {
                   defaultSrc: ["'self'", "https://api.emailjs.com"],
                   styleSrc: ["'self'", "'unsafe-inline'", "https://stackpath.bootstrapcdn.com", "https://fonts.googleapis.com"],
-                  imgSrc: ["'self'", "data:"],
+                  imgSrc: ["'self'", "data:", "https://dl6rt3mwcjzxg.cloudfront.net"],
                   frameSrc: ["https://anchor.fm/"],
                   fontSrc: ["'self'", "https://fonts.gstatic.com"],
                   scriptSrc: ["'self'", "'sha256-X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k='"]

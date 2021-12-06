@@ -51,15 +51,21 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
       <meta property="og:type" content="website"></meta>
  </Head>
 
-  <div className="homeTop" alt="Grant and Jacob Podcast Hosts">
-    <div className="wrapper halloween-font">
+  <div className="homeTop" alt="Grant and Jacob Podcast Hosts winter-is-coming">
+    <div className="wrapper">
+    <div class="snow snow--near"></div>
+  <div class="snow snow--near snow--alt"></div>
+  
+  <div class="snow snow--mid"></div>
+  <div class="snow snow--mid snow--alt"></div>
+  
+  <div class="snow snow--far"></div>
+  <div class="snow snow--far snow--alt"></div>
     <Container>
       <Row>
-      <Col md={6} sm={12}>
-      </Col>
         <Col md={6} sm={12}>
           <h1>MANDATE MONDAY</h1>
-          <p className="halloween-font">Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey and Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</p>
+          <p className="">Two guys, One podcast. Dim the lights, and put your feet up as Grant Fosbraey and Jacob Jenner attempt to set the world to rights. Tackling a variety of subjects, and falling down many dark holes.</p>
           <div className={styles.padBot}>
           <Link href="/episodes"><a className="episodeButton">View Episodes</a></Link>
           </div>
@@ -70,15 +76,9 @@ const lastEntry = JSONDATA[JSONDATA.length -1]
     </div>
   </div>
 <div>
-  <div className="cobweb">
-    <img src="images/CobWeb.svg" alt="spider web" width="50px" height="50px"/>
-    </div>
-    <div className="cobweb cobright">
-    <img src="images/CobWebRight.svg" alt="spider web" width="50px" height="50px"/>
-    </div>
   <div className={styles.latestEp} key={lastEntry.id}>
     
-    <div className="wrapper halloween-font">
+    <div className="wrapper">
       <div className={styles.card}>
         <h2 className={styles.padBot}>
           View our lastest episode below!

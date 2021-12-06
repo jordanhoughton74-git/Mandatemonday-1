@@ -11,7 +11,7 @@ export default function Header(){
             <Link href="/" passHref><Navbar.Brand>
                 <img
                 alt="Mandate Monday Logo"
-                src="/images/MandateMondayLogoHalloween.svg"
+                src="/images/MandateMondayLogo.svg"
                 className="d-inline-block align-top logo-img"
              />
       </Navbar.Brand></Link>
